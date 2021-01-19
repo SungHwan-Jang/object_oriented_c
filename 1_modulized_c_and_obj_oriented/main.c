@@ -1,10 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include "regarcy_stack.h"
+#include "module.h"
+
+#if STEP0
+#include "regarcy_stack.h"
+#elif STEP1
 #include "step1.h"
+#elif STEP2
+#include "step2.h"
+#endif
+
 
 int main() {
-#if defined(INC_1_MODULIZED_C_AND_OBJ_ORIENTED_REGARCY_STACK_H)
+#if STEP0
     int i =0;
     int ret = 0;
 
@@ -17,7 +25,7 @@ int main() {
     }
 #endif
 
-#if defined(INC_1_MODULIZED_C_AND_OBJ_ORIENTED_STEP1_H)
+#if STEP1
     int temp1 = 0;
     int temp2 = 0;
 
@@ -50,6 +58,10 @@ int main() {
         resTmp1 = NULL;
         resTmp2 = NULL;
     }
+#endif
+
+#if STEP2
+
 #endif
     return 0;
 }

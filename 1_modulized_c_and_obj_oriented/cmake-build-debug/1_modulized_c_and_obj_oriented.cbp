@@ -77,9 +77,6 @@
 		<Unit filename="E:/object_oriented_c/object_oriented_c/1_modulized_c_and_obj_oriented/main.c">
 			<Option target="1_modulized_c_and_obj_oriented"/>
 		</Unit>
-		<Unit filename="E:/object_oriented_c/object_oriented_c/1_modulized_c_and_obj_oriented/module.h">
-			<Option target="1_modulized_c_and_obj_oriented"/>
-		</Unit>
 		<Unit filename="E:/object_oriented_c/object_oriented_c/1_modulized_c_and_obj_oriented/regarcy_stack.c">
 			<Option target="1_modulized_c_and_obj_oriented"/>
 		</Unit>

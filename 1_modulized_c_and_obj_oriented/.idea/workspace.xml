@@ -12,8 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4194a1ec-f9ac-4fa1-83bf-074a13c1504b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/1_modulized_c_and_obj_oriented.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/1_modulized_c_and_obj_oriented.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regarcy_stack.c" beforeDir="false" afterPath="$PROJECT_DIR$/regarcy_stack.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regarcy_stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/regarcy_stack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step1.c" beforeDir="false" afterPath="$PROJECT_DIR$/step1.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step1.h" beforeDir="false" afterPath="$PROJECT_DIR$/step1.h" afterDir="false" />
@@ -116,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610876193172</updated>
       <workItem from="1610876197861" duration="8948000" />
-      <workItem from="1611065940587" duration="2684000" />
+      <workItem from="1611065940587" duration="2829000" />
     </task>
     <servers />
   </component>

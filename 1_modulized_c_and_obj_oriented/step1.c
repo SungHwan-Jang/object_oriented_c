@@ -9,6 +9,7 @@
 
 #include "step1.h"
 
+#if STEP1
 int buf[16];
 int top = 0;
 
@@ -34,3 +35,4 @@ bool pop(Stack *p, int *pRet){
     *pRet = p->pBuf[--p->top];
     return true;
 }
+#endif

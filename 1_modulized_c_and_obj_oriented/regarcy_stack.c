@@ -1,7 +1,7 @@
 //
 // Created by redmk on 2021-01-17.
 //
-#if 0
+#if STEP0
 
 #include "regarcy_stack.h"
 #include "stdio.h"
