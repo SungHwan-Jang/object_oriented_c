@@ -1,3 +1,0 @@
-C:\Users\redmk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\1_modulized_c_and_obj_oriented.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\1_modulized_c_and_obj_oriented.dir/objects.a @CMakeFiles\1_modulized_c_and_obj_oriented.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\1_modulized_c_and_obj_oriented.dir/objects.a -Wl,--no-whole-archive  -o 1_modulized_c_and_obj_oriented.exe -Wl,--out-implib,lib1_modulized_c_and_obj_oriented.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1_modulized_c_and_obj_oriented.dir\linklibs.rsp
