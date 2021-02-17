@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd03/src/cdplayer.c
+stdbool.h
+-
+cdplayer.h
+E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd03/src/cdplayer.h
+
+E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd03/src/cdplayer.h
+
+E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd03/src/main.c
+cdplayer.h
+E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd03/src/cdplayer.h
+
