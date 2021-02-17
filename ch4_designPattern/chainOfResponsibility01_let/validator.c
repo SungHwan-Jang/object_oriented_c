@@ -27,13 +27,13 @@ static void update_ir_detect_info(unsigned int curDistance){
     irDetectInfo.currentDistance = curDistance;
 
     if(validate(irDetectInfo.pRangeValidate, &irDetectInfo) == true){
-        printf("range detect  ");
+        printf("[   range detect  ]");
     }
     else if(validate(irDetectInfo.pDiffValidate, &irDetectInfo) == true){
-        printf("diff detect  ");
+        printf("[   diff detect  ]");
     }
     else{
-
+        printf("[reserved distance]");
     }
 }
 
@@ -64,30 +64,42 @@ bool validateRange(Validator *p, void* obj){
     }
 
     if(info->currentDistance > validator->max){
-        printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
 
         if(info->earState != IN_EAR_ON_INFO){
+            printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
             info->earState = IN_EAR_ON_INFO;
+            info->previousDistance = info->currentDistance;
             info->isAlarm = true;
         }
         else{
+            if(info->currentDistance > info->previousDistance) {
+                printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance,
+                       info->currentDistance);
+                info->previousDistance = info->currentDistance;
+            }
             info->isAlarm = false;
         }
 
-        info->previousDistance = info->currentDistance;
+
         return true;
     }
     else if(info->currentDistance < validator->min){
-        printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
 
         if(info->earState != IN_EAR_OFF_INFO){
+            printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
             info->earState = IN_EAR_OFF_INFO;
+            info->previousDistance = info->currentDistance;
             info->isAlarm = true;
         }
         else{
+            if(info->currentDistance < info->previousDistance){
+                printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
+                info->previousDistance = info->currentDistance;
+            }
+
             info->isAlarm = false;
         }
-        info->previousDistance = info->currentDistance;
+
         return true;
     }
     else{
@@ -105,12 +117,14 @@ bool validateDiff(Validator *p, void* obj){
         printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
         info->earState = IN_EAR_ON_INFO;
         info->previousDistance = info->currentDistance;
+        info->isAlarm = true;
         return true;
     }
     else if(diff < -(validator->diff)){
         printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
         info->earState = IN_EAR_OFF_INFO;
         info->previousDistance = info->currentDistance;
+        info->isAlarm = true;
         return true;
     }
     else{

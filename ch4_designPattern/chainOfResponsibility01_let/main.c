@@ -14,13 +14,16 @@ int main() {
         randSeed = rand() % 255;
         info = get_ir_ear_state(randSeed);
         if(info != IN_EAR_NONE_INFO){
+            // get info state
             printf(" testcase : %d seed : %d // earState : %d [0-on / 1-off / 2-none]\n",
                    i,
                    randSeed,
                    info);
+            printf("!!! IN_EAR STATE CHANGED !!! : %d\n", info);
         }
         else{
-            printf("reseved testcase : %d seed : %d // earState : %d [0-on / 1-off / 2-none]\n",
+            //
+            printf(" testcase : %d seed : %d // earState : %d [0-on / 1-off / 2-none]\n",
                    i,
                    randSeed,
                    info);

@@ -9,12 +9,12 @@
 #include "stdbool.h"
 
 #define IR_DETECT_MIN_THRESHOLD     60
-#define IR_DETECT_MAX_THRESHOLD     150
-#define IR_DETECT_DIFF_THRESHOLD    80
+#define IR_DETECT_MAX_THRESHOLD     200
+#define IR_DETECT_DIFF_THRESHOLD    150
 
 typedef struct _validator{
     bool (* const check)(struct Validator *pThis, void* info);
-}Validator;
+}Validator; // inheritance form.
 
 typedef struct{
     Validator this;
@@ -22,7 +22,7 @@ typedef struct{
 }PreviousValueValidator;
 
 typedef struct{
-    Validator this;
+    Validator this; // it must be located first. because of inheritance.
     const unsigned int min;
     const unsigned int max;
 }RangeValidator;
