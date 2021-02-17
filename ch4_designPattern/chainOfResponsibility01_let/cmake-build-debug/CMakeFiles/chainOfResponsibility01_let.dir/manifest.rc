@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/cmake-build-debug/CMakeFiles/chainOfResponsibility01_let.dir/embed.manifest"
