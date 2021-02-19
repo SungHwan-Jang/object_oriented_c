@@ -3,7 +3,7 @@
 //
 
 // ear state 비교하고 알람, previous는 abs 더 큰값을 저장.
-
+#if 0
 #ifndef CHAINOFRESPONSIBILITY01_LET_VALIDATOR_H
 #define CHAINOFRESPONSIBILITY01_LET_VALIDATOR_H
 #include "stdbool.h"
@@ -58,3 +58,4 @@ bool validateDiff(Validator *p, void* info);
     {validateDiff, (IR_DETECT_DIFF_THRESHOLD)}
 
 #endif //CHAINOFRESPONSIBILITY01_LET_VALIDATOR_H
+#endif

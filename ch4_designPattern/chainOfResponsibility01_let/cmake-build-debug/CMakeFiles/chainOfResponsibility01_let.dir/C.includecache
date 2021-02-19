@@ -9,14 +9,14 @@
 D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/main.c
 stdio.h
 D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/stdio.h
-validator.h
-D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validator.h
+validate_diff_enhance.h
+D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhance.h
 stdlib.h
 D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/stdlib.h
 time.h
 D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/time.h
 
-D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validator.h
+D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhance.h
 stdbool.h
 D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/stdbool.h
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/chainOfResponsibility01_let.dir/main.c.obj"
+  "CMakeFiles/chainOfResponsibility01_let.dir/validate_diff_enhance.c.obj"
   "CMakeFiles/chainOfResponsibility01_let.dir/validator.c.obj"
   "chainOfResponsibility01_let.exe"
   "chainOfResponsibility01_let.exe.manifest"

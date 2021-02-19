@@ -87,6 +87,12 @@
 		<Unit filename="D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/main.c">
 			<Option target="chainOfResponsibility01_let"/>
 		</Unit>
+		<Unit filename="D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhance.c">
+			<Option target="chainOfResponsibility01_let"/>
+		</Unit>
+		<Unit filename="D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhance.h">
+			<Option target="chainOfResponsibility01_let"/>
+		</Unit>
 		<Unit filename="D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validator.c">
 			<Option target="chainOfResponsibility01_let"/>
 		</Unit>

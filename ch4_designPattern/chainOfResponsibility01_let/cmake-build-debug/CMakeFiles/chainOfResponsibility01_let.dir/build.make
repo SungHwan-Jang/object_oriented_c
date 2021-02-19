@@ -99,19 +99,40 @@ CMakeFiles\chainOfResponsibility01_let.dir\validator.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\chainOfResponsibility01_let.dir\validator.c.s /c D:\sw_workspace\object_oriented_c\ch4_designPattern\chainOfResponsibility01_let\validator.c
 <<
 
+CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.obj: CMakeFiles\chainOfResponsibility01_let.dir\flags.make
+CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.obj: ..\validate_diff_enhance.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\sw_workspace\object_oriented_c\ch4_designPattern\chainOfResponsibility01_let\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/chainOfResponsibility01_let.dir/validate_diff_enhance.c.obj"
+	C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.obj /FdCMakeFiles\chainOfResponsibility01_let.dir\ /FS -c D:\sw_workspace\object_oriented_c\ch4_designPattern\chainOfResponsibility01_let\validate_diff_enhance.c
+<<
+
+CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chainOfResponsibility01_let.dir/validate_diff_enhance.c.i"
+	C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\sw_workspace\object_oriented_c\ch4_designPattern\chainOfResponsibility01_let\validate_diff_enhance.c
+<<
+
+CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chainOfResponsibility01_let.dir/validate_diff_enhance.c.s"
+	C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.s /c D:\sw_workspace\object_oriented_c\ch4_designPattern\chainOfResponsibility01_let\validate_diff_enhance.c
+<<
+
 # Object files for target chainOfResponsibility01_let
 chainOfResponsibility01_let_OBJECTS = \
 "CMakeFiles\chainOfResponsibility01_let.dir\main.c.obj" \
-"CMakeFiles\chainOfResponsibility01_let.dir\validator.c.obj"
+"CMakeFiles\chainOfResponsibility01_let.dir\validator.c.obj" \
+"CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.obj"
 
 # External object files for target chainOfResponsibility01_let
 chainOfResponsibility01_let_EXTERNAL_OBJECTS =
 
 chainOfResponsibility01_let.exe: CMakeFiles\chainOfResponsibility01_let.dir\main.c.obj
 chainOfResponsibility01_let.exe: CMakeFiles\chainOfResponsibility01_let.dir\validator.c.obj
+chainOfResponsibility01_let.exe: CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.obj
 chainOfResponsibility01_let.exe: CMakeFiles\chainOfResponsibility01_let.dir\build.make
 chainOfResponsibility01_let.exe: CMakeFiles\chainOfResponsibility01_let.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\sw_workspace\object_oriented_c\ch4_designPattern\chainOfResponsibility01_let\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable chainOfResponsibility01_let.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\sw_workspace\object_oriented_c\ch4_designPattern\chainOfResponsibility01_let\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable chainOfResponsibility01_let.exe"
 	C:\Users\admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\chainOfResponsibility01_let.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\chainOfResponsibility01_let.dir\objects1.rsp @<<
  /out:chainOfResponsibility01_let.exe /implib:chainOfResponsibility01_let.lib /pdb:D:\sw_workspace\object_oriented_c\ch4_designPattern\chainOfResponsibility01_let\cmake-build-debug\chainOfResponsibility01_let.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

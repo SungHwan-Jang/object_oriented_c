@@ -154,6 +154,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chainOfResponsibility01_let.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chainOfResponsibility01_let.dir\main.c.s
 .PHONY : main.c.s
 
+validate_diff_enhance.obj: validate_diff_enhance.c.obj
+
+.PHONY : validate_diff_enhance.obj
+
+# target to build an object file
+validate_diff_enhance.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chainOfResponsibility01_let.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.obj
+.PHONY : validate_diff_enhance.c.obj
+
+validate_diff_enhance.i: validate_diff_enhance.c.i
+
+.PHONY : validate_diff_enhance.i
+
+# target to preprocess a source file
+validate_diff_enhance.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chainOfResponsibility01_let.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.i
+.PHONY : validate_diff_enhance.c.i
+
+validate_diff_enhance.s: validate_diff_enhance.c.s
+
+.PHONY : validate_diff_enhance.s
+
+# target to generate assembly for a file
+validate_diff_enhance.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chainOfResponsibility01_let.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chainOfResponsibility01_let.dir\validate_diff_enhance.c.s
+.PHONY : validate_diff_enhance.c.s
+
 validator.obj: validator.c.obj
 
 .PHONY : validator.obj
@@ -193,6 +220,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... validate_diff_enhance.obj
+	@echo ... validate_diff_enhance.i
+	@echo ... validate_diff_enhance.s
 	@echo ... validator.obj
 	@echo ... validator.i
 	@echo ... validator.s
