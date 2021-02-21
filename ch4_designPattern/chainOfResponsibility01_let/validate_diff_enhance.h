@@ -11,13 +11,13 @@
 #define CHAINOFRESPONSIBILITY01_LET_VALIDATE_DIFF_ENHANCE_H
 #include "stdbool.h"
 
-#define RING_BUFFER_MAX                     16 // 64 byte mem
+#define RING_BUFFER_MAX                     8 // 64 byte mem
 #define TIMER_PERIOD                        500
 
 #define IR_DETECT_MIN_THRESHOLD             20
 #define IR_DETECT_MAX_THRESHOLD             200
 
-#define IR_DETECT_DIFF_STABLE_THRESHOLD      15
+#define IR_DETECT_DIFF_STABLE_THRESHOLD      10
 #define IR_DETECT_DIFF_UPPER_THRESHOLD      50
 
 typedef struct _validator{
@@ -36,14 +36,14 @@ typedef struct _custom_ring_buffer{
 
 typedef struct{
     Validator this;
-    const int stableThr;
+    const unsigned int stableThr;
     int upperThr; // need calib
 }DiffentialValidator;
 
 typedef struct{
     Validator this; // it must be located first. because of inheritance.
-    unsigned int min; // need calib
-    unsigned int max; // need calib
+    const unsigned int min; // need calib
+    const unsigned int max; // need calib
 }RangeValidator;
 
 typedef enum {
@@ -61,6 +61,7 @@ typedef struct _ir_detect_in_ear_info{
     Validator * const pRangeValidate;
     Validator * const pDiffValidate;
 }ir_detect_info_t;
+
 
 void initialize_ir_info_instance(void);
 ir_in_ear_info get_ir_ear_state(unsigned int curDistance);

@@ -1,0 +1,3 @@
+C:\Users\redmk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\chainOfResponsibility01_let.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\chainOfResponsibility01_let.dir/objects.a @CMakeFiles\chainOfResponsibility01_let.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\chainOfResponsibility01_let.dir/objects.a -Wl,--no-whole-archive  -o chainOfResponsibility01_let.exe -Wl,--out-implib,libchainOfResponsibility01_let.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\chainOfResponsibility01_let.dir\linklibs.rsp
