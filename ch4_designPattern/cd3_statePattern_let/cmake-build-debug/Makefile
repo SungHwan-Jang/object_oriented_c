@@ -169,6 +169,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cd3_statePattern_let.dir\build.make CMakeFiles/cd3_statePattern_let.dir/main.c.s
 .PHONY : main.c.s
 
+self_state.obj: self_state.c.obj
+
+.PHONY : self_state.obj
+
+# target to build an object file
+self_state.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cd3_statePattern_let.dir\build.make CMakeFiles/cd3_statePattern_let.dir/self_state.c.obj
+.PHONY : self_state.c.obj
+
+self_state.i: self_state.c.i
+
+.PHONY : self_state.i
+
+# target to preprocess a source file
+self_state.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cd3_statePattern_let.dir\build.make CMakeFiles/cd3_statePattern_let.dir/self_state.c.i
+.PHONY : self_state.c.i
+
+self_state.s: self_state.c.s
+
+.PHONY : self_state.s
+
+# target to generate assembly for a file
+self_state.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cd3_statePattern_let.dir\build.make CMakeFiles/cd3_statePattern_let.dir/self_state.c.s
+.PHONY : self_state.c.s
+
 state_pattern.obj: state_pattern.c.obj
 
 .PHONY : state_pattern.obj
@@ -208,6 +235,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... self_state.obj
+	@echo ... self_state.i
+	@echo ... self_state.s
 	@echo ... state_pattern.obj
 	@echo ... state_pattern.i
 	@echo ... state_pattern.s

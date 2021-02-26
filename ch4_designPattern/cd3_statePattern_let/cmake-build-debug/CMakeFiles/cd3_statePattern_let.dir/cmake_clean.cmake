@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cd3_statePattern_let.dir/main.c.obj"
+  "CMakeFiles/cd3_statePattern_let.dir/self_state.c.obj"
   "CMakeFiles/cd3_statePattern_let.dir/state_pattern.c.obj"
   "cd3_statePattern_let.exe"
   "cd3_statePattern_let.exe.manifest"

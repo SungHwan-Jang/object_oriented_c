@@ -3,7 +3,11 @@
 
 CMakeFiles/cd3_statePattern_let.dir/main.c.obj
  E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/main.c
+ E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/self_state.h
  E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/state_pattern.h
+CMakeFiles/cd3_statePattern_let.dir/self_state.c.obj
+ E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/self_state.c
+ E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/self_state.h
 CMakeFiles/cd3_statePattern_let.dir/state_pattern.c.obj
  E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/state_pattern.c
  E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/state_pattern.h
