@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../myself/db_read.h
-file_read.h
-../myself/file_read.h
-
-../myself/file_read.h
-stdio.h
-../myself/stdio.h
-stdlib.h
-../myself/stdlib.h
-stdbool.h
-../myself/stdbool.h
-
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/main.c
-stdio.h
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/stdio.h
-db_read.h
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/db_read.h
-
 E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/myself/buf_control.h
 stdbool.h
 E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/myself/stdbool.h
@@ -41,6 +23,8 @@ buf_control.h
 E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/myself/buf_control.h
 stdlib.h
 E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/myself/stdlib.h
+string.h
+E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/myself/string.h
 
 E:/object_oriented_c/object_oriented_c/ch4_designPattern/template08/src/myself/db_read.h
 file_read.h

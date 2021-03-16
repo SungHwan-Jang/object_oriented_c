@@ -13,10 +13,10 @@ typedef enum{
     RET_FILE_ACCESS_FAIL,
 }err_type_t;
 
-typedef struct _qsort_context{
+typedef struct qsort_context_t{
     char * const fileName;
     err_type_t errType;
-}context_t;
+}qsort_context_t;
 
-err_type_t qsort_file(const char * fileName);
+err_type_t qsort_file(char * const fileName);
 #endif //SRC_DB_READ_H

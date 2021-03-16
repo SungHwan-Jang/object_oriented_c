@@ -7,6 +7,7 @@ bool buffer(BufferContext *pThis) {
     assert(pThis);
     bool ret = pThis->processor(pThis);
     free(pThis->pBuf);
+    pThis->pBuf = NULL;
     return ret;
 }
 

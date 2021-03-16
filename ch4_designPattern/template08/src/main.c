@@ -5,6 +5,6 @@
 #include "db_read.h"
 
 int main(void){
-
+    qsort_file("test.txt");
     return 0;
 }

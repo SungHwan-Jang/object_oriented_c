@@ -7,12 +7,12 @@
 #include "stdbool.h"
 #include "stdlib.h"
 
-typedef struct buf_context{
+typedef struct _buf_t{
     void* pBuf;
     size_t size;
-    void (* const buf_control)(struct buf_context* this);
-}buf_context_t;
+    void (* const buf_control)(struct _buf_t* this);
+}buf_t;
 
-bool new_buffer(buf_context_t* buf);
+bool new_buffer(buf_t* this);
 
 #endif //SRC_BUF_CONTROL_H

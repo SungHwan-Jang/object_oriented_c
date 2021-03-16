@@ -4,7 +4,7 @@
 
 #include "buf_control.h"
 
-bool new_buffer(buf_context_t* this){
+bool new_buffer(buf_t* this){
     this->pBuf = malloc(this->size);
     if(this->pBuf == NULL)
         return false;
