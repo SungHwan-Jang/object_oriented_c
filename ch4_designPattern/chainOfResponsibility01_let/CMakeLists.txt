@@ -3,4 +3,4 @@ project(chainOfResponsibility01_let)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(chainOfResponsibility01_let main.c validator.h validator.c validate_diff_enhance.c validate_diff_enhance.h)
+add_executable(chainOfResponsibility01_let main.c validator.h validator.c validate_diff_enhance.c validate_diff_enhance.h validate_diff_enhanced_stable.c validate_diff_enhanced_stable.h)

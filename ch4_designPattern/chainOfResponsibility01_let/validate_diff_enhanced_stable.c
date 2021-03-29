@@ -1,11 +1,9 @@
 //
 // Created by admin on 2021-02-16.
 //
-#if 0
 #include "stdio.h"
-#include "validate_diff_enhance.h"
+#include "validate_diff_enhanced_stable.h"
 #include "string.h"
-#include "math.h"
 
 static custom_ring_buffer_t buffInstance;
 static DiffentialValidator diffValidator = newDiffValidator();
@@ -127,16 +125,16 @@ bool validateRange(Validator *p, void* obj){
     if (info->currentDistance > validator->max) {
         printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
         info->earState = IN_EAR_ON_INFO;
-        info->bufInstance->reset(info->bufInstance);
-        info->bufInstance->push(info->bufInstance, IR_DETECT_MAX_THRESHOLD);
+        //info->bufInstance->reset(info->bufInstance);
+        info->bufInstance->push(info->bufInstance, info->currentDistance);
         info->isAlarm = true;
         return true;
     }
     else if (info->currentDistance < validator->min) {
         printf("<distance CHANGE ! = before : %d , after : %d >\n", info->previousDistance, info->currentDistance);
         info->earState = IN_EAR_OFF_INFO;
-        info->bufInstance->reset(info->bufInstance);
-        info->bufInstance->push(info->bufInstance, IR_DETECT_MIN_THRESHOLD);
+        //info->bufInstance->reset(info->bufInstance);
+        info->bufInstance->push(info->bufInstance, info->currentDistance);
         info->isAlarm = true;
         return true;
     }
@@ -181,19 +179,18 @@ bool validateDiff(Validator *p, void* obj){
     }
     else{
         // ignore state
-        if (diff <= validator->stableThr
-            && diff >= -(validator->stableThr)) { // calib previous distance
+        if (diff <= (int)validator->stableThr && diff >= (int)(-validator->stableThr)) { // calib previous distance
             info->bufInstance->push(info->bufInstance, info->currentDistance);
         }
         else {
             // force calib previous distance
             switch (info->earState) {
-                case IN_EAR_ON_INFO:
-                    if(diff > (int)(validator->stableThr)){
-                        info->bufInstance->reset(info->bufInstance);
-                        info->bufInstance->push(info->bufInstance, info->currentDistance);
-                    }
-                    break;
+//                case IN_EAR_ON_INFO:
+//                    if(diff > (int)(validator->stableThr)){
+//                        //info->bufInstance->reset(info->bufInstance);
+//                        info->bufInstance->push(info->bufInstance, info->currentDistance);
+//                    }
+//                    break;
                 case IN_EAR_OFF_INFO:
                     if(diff < (int)(-validator->stableThr)){
                         info->bufInstance->reset(info->bufInstance);
@@ -209,5 +206,3 @@ bool validateDiff(Validator *p, void* obj){
         return false;
     }
 }
-
-#endif

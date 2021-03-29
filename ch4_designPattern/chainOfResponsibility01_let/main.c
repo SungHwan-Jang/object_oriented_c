@@ -1,6 +1,7 @@
 #include <stdio.h>
 //#include "validator.h"
-#include "validate_diff_enhance.h"
+//#include "validate_diff_enhance.h"
+#include "validate_diff_enhanced_stable.h"
 #include "stdlib.h"
 #include "time.h"
 
@@ -11,8 +12,10 @@ int main() {
     srand(time(NULL));
     ir_in_ear_info info = IN_EAR_NONE_INFO;
 
-#if 0
-    for(int i =0; i<3; i++){
+#if 1
+    int i =0;
+    while (1){
+        i++;
         scanf("%d", &randSeed);
         info = get_ir_ear_state(randSeed);
         if(info != IN_EAR_NONE_INFO){
@@ -32,7 +35,7 @@ int main() {
         }
     }
 #endif
-#if 1
+#if 0
     for(int i =0; i<20; i++){
         randSeed = rand() % 255;
         info = get_ir_ear_state(randSeed);

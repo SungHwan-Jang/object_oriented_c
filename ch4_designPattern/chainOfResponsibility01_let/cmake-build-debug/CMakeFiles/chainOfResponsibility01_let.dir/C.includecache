@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/main.c
+D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhanced_stable.c
 stdio.h
--
-validate_diff_enhance.h
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhance.h
-stdlib.h
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/stdlib.h
-time.h
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/time.h
+D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/stdio.h
+validate_diff_enhanced_stable.h
+D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhanced_stable.h
+string.h
+D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/string.h
 
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhance.h
+D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/validate_diff_enhanced_stable.h
 stdbool.h
-E:/object_oriented_c/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/stdbool.h
+D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/stdbool.h
 

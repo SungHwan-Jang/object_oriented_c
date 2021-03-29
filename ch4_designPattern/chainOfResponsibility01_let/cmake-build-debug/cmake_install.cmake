@@ -1,4 +1,4 @@
-# Install script for directory: E:/object_oriented_c/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let
+# Install script for directory: D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/object_oriented_c/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/sw_workspace/object_oriented_c/ch4_designPattern/chainOfResponsibility01_let/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
