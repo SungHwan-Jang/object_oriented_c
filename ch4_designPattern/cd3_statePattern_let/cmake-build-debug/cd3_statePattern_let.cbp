@@ -77,6 +77,12 @@
 		<Unit filename="E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/main.c">
 			<Option target="cd3_statePattern_let"/>
 		</Unit>
+		<Unit filename="E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/self_state.c">
+			<Option target="cd3_statePattern_let"/>
+		</Unit>
+		<Unit filename="E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/self_state.h">
+			<Option target="cd3_statePattern_let"/>
+		</Unit>
 		<Unit filename="E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/state_pattern.c">
 			<Option target="cd3_statePattern_let"/>
 		</Unit>

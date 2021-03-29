@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/range.h
+
+E:/object_oriented_c/object_oriented_c/ch4_designPattern/template01/main.c
+stdio.h
+-
+range.h
+E:/object_oriented_c/object_oriented_c/ch4_designPattern/template01/range.h
+stdlib.h
+-
+

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/main.c" "E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/cmake-build-debug/CMakeFiles/cd3_statePattern_let.dir/main.c.obj"
+  "E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/self_state.c" "E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/cmake-build-debug/CMakeFiles/cd3_statePattern_let.dir/self_state.c.obj"
   "E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/state_pattern.c" "E:/object_oriented_c/object_oriented_c/ch4_designPattern/cd3_statePattern_let/cmake-build-debug/CMakeFiles/cd3_statePattern_let.dir/state_pattern.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

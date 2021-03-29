@@ -6,7 +6,11 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
+/*
+ * BufferContext = object
+ * processor = interface
+ * public buffer(context* this) => using object public method.
+ * */
 typedef struct BufferContext {
     void *pBuf;
     size_t size;
