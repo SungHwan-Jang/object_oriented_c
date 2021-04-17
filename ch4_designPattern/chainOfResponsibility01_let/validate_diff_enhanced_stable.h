@@ -1,24 +1,20 @@
 //
-// Created by admin on 2021-02-17.
+// Created by admin on 2021-02-22.
 //
 
-/*
- * min/max threshold check current, no control ring buffer.
- *
- * */
-#if 0
-#ifndef CHAINOFRESPONSIBILITY01_LET_VALIDATE_DIFF_ENHANCE_H
-#define CHAINOFRESPONSIBILITY01_LET_VALIDATE_DIFF_ENHANCE_H
+#ifndef CHAINOFRESPONSIBILITY01_LET_VALIDATE_DIFF_ENHANCED_STABLE_H
+#define CHAINOFRESPONSIBILITY01_LET_VALIDATE_DIFF_ENHANCED_STABLE_H
+
 #include "stdbool.h"
 
-#define RING_BUFFER_MAX                     8 // 64 byte mem
+#define RING_BUFFER_MAX                     8 // 32 byte mem
 #define TIMER_PERIOD                        500
 
 #define IR_DETECT_MIN_THRESHOLD             20
 #define IR_DETECT_MAX_THRESHOLD             200
 
-#define IR_DETECT_DIFF_STABLE_THRESHOLD      10
-#define IR_DETECT_DIFF_UPPER_THRESHOLD      50
+#define IR_DETECT_DIFF_STABLE_THRESHOLD      20
+#define IR_DETECT_DIFF_UPPER_THRESHOLD      70
 
 typedef struct _validator{
     bool (* const check)(struct Validator *pThis, void* info);
@@ -84,6 +80,4 @@ bool validateDiff(Validator *p, void* info);
 #define newDiffValidator() \
     {validateDiff, (IR_DETECT_DIFF_STABLE_THRESHOLD), (IR_DETECT_DIFF_UPPER_THRESHOLD)}
 
-#endif //CHAINOFRESPONSIBILITY01_LET_VALIDATE_DIFF_ENHANCE_H
-
-#endif
+#endif //CHAINOFRESPONSIBILITY01_LET_VALIDATE_DIFF_ENHANCED_STABLE_H
