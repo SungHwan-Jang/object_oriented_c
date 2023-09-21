@@ -1,4 +1,0 @@
-C:\Users\redmk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\object_oriented_c\object_oriented_c\ch4_designPattern\template04\src
--- Configuring done
--- Generating done
--- Build files have been written to: E:/object_oriented_c/object_oriented_c/ch4_designPattern/template04/src/cmake-build-debug

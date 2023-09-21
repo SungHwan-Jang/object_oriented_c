@@ -1,3 +1,0 @@
-C:\Users\redmk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cd3_statePattern_let.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cd3_statePattern_let.dir/objects.a @CMakeFiles\cd3_statePattern_let.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\cd3_statePattern_let.dir/objects.a -Wl,--no-whole-archive  -o cd3_statePattern_let.exe -Wl,--out-implib,libcd3_statePattern_let.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cd3_statePattern_let.dir\linklibs.rsp
